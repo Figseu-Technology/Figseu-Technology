@@ -9,6 +9,19 @@ function Submit() {
    } else if (Stages == "69") {
       location.href = "https://figseu-technology.github.io/Delta/Delta60_6Yaj6fWSr5wJJznWEjHy224.html";
    } else {
-      location.href = "https://figseu-technology.github.io/Delta/";
+      location.href = "https://figseu-technology.github.io/UD/";
+   }
+}
+
+function MenuSubmit() {
+   Stages = $('#menu-select').val();
+   if (Stages == "1") {
+      location.href = "https://figseu-technology.github.io/RCN_6N7eGCtczZLUxhJAud24RSH4D6QCdbTJpM9nYpFtQetriKYnka.html";
+   } else if (Stages == "2") {
+      location.href = "https://figseu-technology.github.io/UD/Editor/";
+   } else if (Stages == "3") {
+      location.href = "https://figseu-technology.github.io/Profile.html";
+   } else {
+      location.href = "https://figseu-technology.github.io/UD/";
    }
 }
