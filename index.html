@@ -127,18 +127,22 @@ body{
         <h1>Rolling Sky Δ</h1>
         <h4>〘 メニュー 〙</h4>
         <hr size="3"/>
-        <a href="https://figseu-technology.github.io/RCN_6N7eGCtczZLUxhJAud24RSH4D6QCdbTJpM9nYpFtQetriKYnka.html">利用規約</a>
-        <a href="Editor.html">ステージエディター</a>
-        <a href="https://figseu-technology.github.io/Profile.html">デルタパスポート</a>
+        <select name="Stages" id="menu-select">
+        <option value="DGDR">Menu Select</option>
+        <option value="1">利用規約</option>
+        <option value="2">ステージエディター</option>
+        <option value="3">デルタパスポート</option>
+        </select>
+        <button onclick="Submit()">選択</button>
         <hr size="3"/>
         <a href="https://github.com/Figseu-Technology/figseu-technology.github.io/releases/download/RS_v5.0.0%CE%94/RollingSky_v5.0.0d.apk">Download</a>
         <hr size="3"/>
         <h4>〘 ステージ選択 〙</h4>
         <select name="Stages" id="stage-select">
         <option value="DGDR">Stage Select</option>
-        <option value="Time Crystal">Time Crystal (☆20)</option>
-        <option value="The Almandine">The Almandine (☆14)</option>
-        <option value="The Obsidian">The Obsidian (☆12)</option>
+        <option value="61">Time Crystal (☆20)</option>
+        <option value="62">The Almandine (☆14)</option>
+        <option value="69">The Obsidian (☆12)</option>
         </select>
         <button onclick="Submit()">Play</button>
     </div>
