@@ -319,17 +319,10 @@ data=
   data.forEach((r, i) => 
     str += "" + r.join(",") + "" + (i == data.length - 1? "": ",\n")
   );
-filer = $('#filer-select').val();
-if (filer == 'Dec') {
-  $("#output").val(str + `
+
+$("#output").val(str + `
 
 `);
-} else if (filer == 'Enc') {
-  var encrypted = Encrypt(str + `
-
-`);
-  $("#output").val(encrypted);
-}
 var anceg = $("#output").val();
 var anccg = $("#output").val().length;
 $("#DGDR").html("行数 :" + gridLength);
