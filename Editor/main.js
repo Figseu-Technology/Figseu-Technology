@@ -284,6 +284,12 @@ function down(e){
 	mouseDown = true;
 }
 
+const pwd = [842019125,808792632];
+
+function Encrypt(word) {
+    return CryptoJS.AES.encrypt(word, pwd).toString();
+}
+
 function move(e){
   if (mouseDown) {
 		const x = $(this).index();
@@ -319,9 +325,9 @@ if (filer == 'Dec') {
 
 `);
 } else if (filer == 'Enc') {
-  const encrypted = crypto.CBC.encrypt(str + `
+  var encrypted = Encrypt(str + `
 
-`, 'key');
+`);
   $("#output").val(encrypted);
 }
 var anceg = $("#output").val();
