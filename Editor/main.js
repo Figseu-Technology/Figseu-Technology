@@ -319,9 +319,10 @@ if (filer == 'Dec') {
 
 `);
 } else if (filer == 'Enc') {
-  $("#output").val(window.btoa(unescape(encodeURIComponent(str + `
+  const encrypted = crypto.CBC.encrypt(str + `
 
-`))));
+`, 'key');
+  $("#output").val(encrypted);
 }
 var anceg = $("#output").val();
 var anccg = $("#output").val().length;
