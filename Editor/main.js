@@ -284,10 +284,15 @@ function down(e){
 	mouseDown = true;
 }
 
-const pwd = [842019125,808792632];
+function Downloader() {
+    let alb = str + `
 
-function Encrypt(word) {
-    return CryptoJS.AES.encrypt(word, pwd).toString();
+`;
+    let blob = new Blob(alb,{type:"text/plan"});
+    let link = document.createElement('a');
+    link.href = URL.createObjectURL(blob);
+    link.download = 'level0.txt';
+    link.click();
 }
 
 function move(e){
