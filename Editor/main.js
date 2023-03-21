@@ -285,9 +285,10 @@ function down(e){
 }
 
 function Downloader() {
-    let alb = str + `
+    let waver = str + `
 
 `;
+    let alb = waver.split('');
     let blob = new Blob(alb,{type:"text/plan"});
     let link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
