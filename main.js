@@ -82,6 +82,8 @@ function Submit() {
       location.href = "https://figseu-technology.github.io/one_index.html?f=1";
    } else if (Stages == "2") {
       location.href = "https://figseu-technology.github.io/one_index.html?f=2";
+   } else if (Stages == "3") {
+      location.href = "https://figseu-technology.github.io/two_index.html?f=3";
    } else if (Stages == "4") {
       location.href = "https://figseu-technology.github.io/two_index.html?f=4";
    } else if (Stages == "5") {
@@ -100,8 +102,18 @@ function Submit() {
       location.href = "https://figseu-technology.github.io/three_index.html?f=11";
    } else if (Stages == "12") {
       location.href = "https://figseu-technology.github.io/three_index.html?f=12";
+   } else if (Stages == "13") {
+      location.href = "https://figseu-technology.github.io/three_index.html?f=13";
    } else if (Stages == "14") {
       location.href = "https://figseu-technology.github.io/four_index.html?f=14";
+   } else if (Stages == "15") {
+      location.href = "https://figseu-technology.github.io/four_index.html?f=15";
+   } else if (Stages == "16") {
+      location.href = "https://figseu-technology.github.io/four_index.html?f=16";
+   } else if (Stages == "17") {
+      location.href = "https://figseu-technology.github.io/four_index.html?f=17";
+   } else if (Stages == "52") {
+      location.href = "https://figseu-technology.github.io/ten_index.html?f=52";
    } else if (Stages == "61") {
       location.href = "https://figseu-technology.github.io/Delta/Delta1_u36WTVFd8jpG64.html";
    } else if (Stages == "62") {
