@@ -114,12 +114,16 @@ function Submit() {
       location.href = "https://figseu-technology.github.io/four_index.html?f=17";
    } else if (Stages == "52") {
       location.href = "https://figseu-technology.github.io/ten_index.html?f=52";
+   } else if (Stages == "57") {
+      location.href = "https://figseu-technology.github.io/one_index.html?f=57";
    } else if (Stages == "61") {
       location.href = "https://figseu-technology.github.io/Delta/Delta1_u36WTVFd8jpG64.html";
    } else if (Stages == "62") {
       location.href = "https://figseu-technology.github.io/Delta/Delta3_j5iR3Ny5ipd9cfD5FQQVH.html";
+   } else if (Stages == "63") {
+      location.href = "https://figseu-technology.github.io/Delta/Delta13_XG9WmaheuETEMrwnBgCLEbgQDBTZBVLt.html?f=63";
    } else if (Stages == "69") {
-      location.href = "https://figseu-technology.github.io/Delta/Delta60_6Yaj6fWSr5wJJznWEjHy224.html";
+      location.href = "https://figseu-technology.github.io/Delta/Delta60_6Yaj6fWSr5wJJznWEjHy224.html?f=69";
    } else {
       location.href = "https://figseu-technology.github.io/UD/";
    }
