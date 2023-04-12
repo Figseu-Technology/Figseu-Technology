@@ -83,7 +83,7 @@ function Submit() {
    } else if (Stages == "2") {
       location.href = "https://figseu-technology.github.io/one_index.html?f=2";
    } else if (Stages == "3") {
-      location.href = "https://figseu-technology.github.io/two_index.html?f=3";
+      location.href = "https://figseu-technology.github.io/one_index.html?f=3";
    } else if (Stages == "4") {
       location.href = "https://figseu-technology.github.io/two_index.html?f=4";
    } else if (Stages == "5") {
