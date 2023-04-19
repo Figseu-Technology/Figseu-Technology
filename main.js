@@ -233,6 +233,12 @@ Master_Stars_EX = encodeURIComponent(atob(Master_Stars));
 
 location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfhTYoOczTHoCenmZBIjH-MdQmd9SPT_xjpIQ3yKDJVnomEHw/viewform?usp=pp_url&entry.1747807555=" + UserName + "&entry.242844452=" + Master_Stars_EX + "&submit=Submit";
 
+   } else if (Stages == "6") {
+      location.href = "file:///android_asset/FBX%20Client/TM/index.html";
+   } else if (Stages == "7") {
+      location.href = "file:///android_asset/FBX%20Client/TL/index.html";
+   } else if (Stages == "8") {
+      location.href = "file:///android_asset/FBX%20Client/LE/index.html";
    } else {
       location.href = "https://figseu-technology.github.io/UD/";
    }
