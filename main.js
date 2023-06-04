@@ -112,6 +112,36 @@ function Submit() {
       location.href = "https://figseu-technology.github.io/four_index.html?f=16";
    } else if (Stages == "17") {
       location.href = "https://figseu-technology.github.io/four_index.html?f=17";
+   } else if (Stages == "18") {
+      location.href = "https://figseu-technology.github.io/five_index.html?f=18";
+   } else if (Stages == "19") {
+      location.href = "https://figseu-technology.github.io/four_index.html?f=19";
+   } else if (Stages == "20") {
+      location.href = "https://figseu-technology.github.io/five_index.html?f=20";
+   } else if (Stages == "21") {
+      location.href = "https://figseu-technology.github.io/five_index.html?f=21";
+   } else if (Stages == "22") {
+      location.href = "https://figseu-technology.github.io/five_index.html?f=22";
+   } else if (Stages == "23") {
+      location.href = "https://figseu-technology.github.io/five_index.html?f=23";
+   } else if (Stages == "24") {
+      location.href = "https://figseu-technology.github.io/five_index.html?f=24";
+   } else if (Stages == "25") {
+      location.href = "https://figseu-technology.github.io/six_index.html?f=25";
+   } else if (Stages == "26") {
+      location.href = "https://figseu-technology.github.io/six_index.html?f=26";
+   } else if (Stages == "27") {
+      location.href = "https://figseu-technology.github.io/six_index.html?f=27";
+   } else if (Stages == "28") {
+      location.href = "https://figseu-technology.github.io/seven_index.html?f=28";
+   } else if (Stages == "29") {
+      location.href = "https://figseu-technology.github.io/seven_index.html?f=29";
+   } else if (Stages == "30") {
+      location.href = "https://figseu-technology.github.io/seven_index.html?f=30";
+   } else if (Stages == "31") {
+      location.href = "https://figseu-technology.github.io/seven_index.html?f=31";
+   } else if (Stages == "32") {
+      location.href = "https://figseu-technology.github.io/seven_index.html?f=32";
    } else if (Stages == "52") {
       location.href = "https://figseu-technology.github.io/ten_index.html?f=52";
    } else if (Stages == "57") {
