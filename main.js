@@ -264,11 +264,11 @@ Master_Stars_EX = encodeURIComponent(atob(Master_Stars));
 location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfhTYoOczTHoCenmZBIjH-MdQmd9SPT_xjpIQ3yKDJVnomEHw/viewform?usp=pp_url&entry.1747807555=" + UserName + "&entry.242844452=" + Master_Stars_EX + "&submit=Submit";
 
    } else if (Stages == "6") {
-      location.href = "https://figseu-technology.github.io/G8/Unforced/TM/";
+      location.href = "https://figseu-technology.github.io/G62/Unforced/TM/";
    } else if (Stages == "7") {
-      location.href = "https://figseu-technology.github.io/G8/Unforced/TL/";
+      location.href = "https://figseu-technology.github.io/G62/Unforced/TL/";
    } else if (Stages == "8") {
-      location.href = "https://figseu-technology.github.io/G8/Unforced/LE/";
+      location.href = "https://figseu-technology.github.io/G62/Unforced/LE/";
    } else {
       location.href = "https://figseu-technology.github.io/UD/";
    }
